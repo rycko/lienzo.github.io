@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>root@localhost</title>
+    <link>https://rycko.github.io/lienzo.github.io/</link>
+    <description>Recent content on root@localhost</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://rycko.github.io/lienzo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>APIKeys&#39;s</title>
+      <link>https://rycko.github.io/lienzo.github.io/apikeys/</link>
+      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
+      
+      <guid>https://rycko.github.io/lienzo.github.io/apikeys/</guid>
+      <description>&lt;p&gt;Para crear las APIKeys se debe acceder a Watson Studio, despues dirigirse a gestionar, seleccionar Acceso (IAM), despues en el lado derecho de la pantalla dirigirse a API keys IBM Cloud.&lt;/p&gt;
+&lt;p&gt;Al crear una API key IBM Cloud se debe copiar el valor de la key y se puede guardar un archivo json, se recomienda guardarlo muy bien ya que despues no se puede acceder a este valor.&lt;/p&gt;
+&lt;p&gt;Estas claves sirven para acceder a modelos de machine learning a través de snipet&amp;rsquo;s para java, javascript, curl, python y stela.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Employee satisfy</title>
+      <link>https://rycko.github.io/lienzo.github.io/employee_satisfy/</link>
+      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
+      
+      <guid>https://rycko.github.io/lienzo.github.io/employee_satisfy/</guid>
+      <description>&lt;p&gt;Employee satisfy es la satisfacción del empleado, para predecir este dato nos valemos de las columnas &amp;ldquo;area&amp;rdquo; (que es un string), &amp;ldquo;employee_satisf&amp;rdquo; (que es un numero flotante), &amp;ldquo;cust_satisf&amp;rdquo; (que es un numero flotante) y &amp;ldquo;estado&amp;rdquo; (que es un string).&lt;/p&gt;
+&lt;p&gt;Este campo lo calculamos en através de los campos ya mencionados del archivo data_bottomline.scv, el archivo generado se llama data_bottomline.csv_shaped se encuentra en la carpeta raíz o en el repositorio de &lt;a href=&#34;https://github.com/rycko/lienzo.github.io&#34;&gt;Github&lt;/a&gt;), también están los notebooks.&lt;/p&gt;
+&lt;p&gt;En el archivo data_bottomline.scv_shaped tenemos las columnas &amp;ldquo;area&amp;rdquo;, &amp;ldquo;employee_satisf&amp;rdquo;, &amp;ldquo;cust_satisf&amp;rdquo; y &amp;ldquo;estado&amp;rdquo;, la columna que se requiere predecir es &amp;ldquo;employee_satisf&amp;rdquo;, este archivo se generó a partir de data_bottomline.scv, para obtener data_bottomline.scv_shaped se refinó el archivo data_bottomline.csv quitando todas las columnas que no aportán al modelo dejando solo las que ya se mencionarón anteriormente.&lt;/p&gt;
+&lt;p&gt;A partir del archivo data_bottomline.scv_shaped se realizó un experimento AutoAI y de las interacciones generadas, se tomo la recomendada por el experimento para generar el modelo y los notebooks que se pueden encontrar en el repositorio de &lt;a href=&#34;https://github.com/rycko/lienzo.github.io&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;autoai-experiment-terminado&#34;&gt;AutoAI experiment terminado&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;autoai-lienzo-bl.png&#34; alt=&#34;autoAI-lienzo 3&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;interconexión&#34;&gt;Interconexión&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;interconexion.png&#34; alt=&#34;autoAI-lienzo 3&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>revenue</title>
+      <link>https://rycko.github.io/lienzo.github.io/machinelearning/</link>
+      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
+      
+      <guid>https://rycko.github.io/lienzo.github.io/machinelearning/</guid>
+      <description>Crear un modelo predictivo Machine Learning en IBM Cloud Prerequisitos $ Cuenta activa en IBM Cloud Crear servicios en IBM Cloud Estos servicios son gratuitos en su versión lite.
+$ Cloud Object Storage - Unidad de almacenamiento $ Watson Studio - Ambiente de desarrollo para machine learning $ Machine learning - Creación y despliegue de modelos Crear proyecto Abrir el servicio de Watson Studio desde IBM Cloud o Watson Studio.</description>
+    </item>
+    
+    <item>
+      <title>revenue</title>
+      <link>https://rycko.github.io/lienzo.github.io/revenue/</link>
+      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
+      
+      <guid>https://rycko.github.io/lienzo.github.io/revenue/</guid>
+      <description>&lt;p&gt;Revenue es el ingreso por compras, se estima multiplicando el numero de ventas por el asp (average selling price).&lt;/p&gt;
+&lt;p&gt;EL revenue lo calculamos en através de los campos &amp;ldquo;sales&amp;rdquo; y &amp;ldquo;asp&amp;rdquo; del archivo topline.scv, los archivos csv generados en este ejercisio los encontramos en la carpeta raíz o en el repositorio de &lt;a href=&#34;https://github.com/rycko/lienzo.github.io&#34;&gt;Github&lt;/a&gt;, también están los notebooks de los cuales uno requiere machine learning y el otro no.&lt;/p&gt;
+&lt;p&gt;En el archivo data_topline.scv_shaped tenemos las columnas &amp;ldquo;sales&amp;rdquo;, &amp;ldquo;revenue&amp;rdquo; y &amp;ldquo;asp&amp;rdquo;, la columna que se requiere predecir es &amp;ldquo;revenue&amp;rdquo; ya que con los datos &amp;ldquo;sales&amp;rdquo; y &amp;ldquo;asp&amp;rdquo; podemos obtener este dato, este archivo se generó a partir de data_topline.scv, para obtener data_topline.scv_shaped se refinó el archivo data_topline.csv quitando todas las columnas que no aportán al modelo dejando solo las que ya se mencionarón anteriormente.&lt;/p&gt;
+&lt;p&gt;A partir del archivo data_topline.scv_shaped se realizó un experimento AutoAI y de las interacciones generadas, se tomo la recomendada por el experimento para generar el modelo y los notebooks que se pueden encontrar en el repositorio de &lt;a href=&#34;https://github.com/rycko/lienzo.github.io&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;autoai-experiment&#34;&gt;AutoAI experiment&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;autoAi-lienzo.png&#34; alt=&#34;autoAI-lienzo&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;autoai-experiment-terminado&#34;&gt;AutoAI experiment terminado&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;autoAi-lienzo-2.png&#34; alt=&#34;autoAI-lienzo 2&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;autoai-experiment-terminado-1&#34;&gt;AutoAI experiment terminado&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;autoAi-lienzo-3.png&#34; alt=&#34;autoAI-lienzo 3&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

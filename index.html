@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta name="generator" content="Hugo 0.76.5" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>root@localhost/lienzo.github.io/</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <link rel="stylesheet" href="https://rycko.github.io/lienzo.github.io/hugo-theme-console/css/terminal-0.7.1.min.css">
+    <link rel="stylesheet" href="https://rycko.github.io/lienzo.github.io/hugo-theme-console/css/animate-3.7.2.min.css">
+    <link rel="stylesheet" href="https://rycko.github.io/lienzo.github.io/hugo-theme-console/css/console.css">
+    
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+       
+      <link href="https://rycko.github.io/lienzo.github.io/index.xml" rel="alternate" type="application/rss+xml" title="root@localhost" />
+    <meta property="og:title" content="root@localhost" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://rycko.github.io/lienzo.github.io/" />
+
+
+<meta name="twitter:title" content="root@localhost"/>
+<meta name="twitter:description" content=""/>
+
+</head>
+<body class="terminal">
+    <div class="container">
+        <div class="terminal-nav">
+          <header class="terminal-logo">
+            <div class="logo terminal-prompt">
+              
+              
+              <a href="https://rycko.github.io/lienzo.github.io/" class="no-style site-name">root@localhost</a>:~# 
+              </div></header>
+          <nav class="terminal-menu">
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                <li><a href="https://rycko.github.io/lienzo.github.io/revenue/" typeof="ListItem">revenue/</a></li>
+                
+                <li><a href="https://rycko.github.io/lienzo.github.io/employee_satisfy/" typeof="ListItem">employee_satisfy/</a></li>
+                
+                <li><a href="https://rycko.github.io/lienzo.github.io/apikeys/" typeof="ListItem">APIKey&#39;s/</a></li>
+                
+            </ul>
+          </nav>
+        </div>
+    </div>
+
+    <div class="container animated zoomIn fast">
+        
+<h1>Bienvenidos!</h1>
+
+<div class="penguin">
+  <div class="penguin-bottom">
+    <div class="right-hand"></div>
+    <div class="left-hand"></div>
+    <div class="right-feet"></div>
+    <div class="left-feet"></div>
+  </div>
+  <div class="penguin-top">
+    <div class="right-cheek"></div>
+    <div class="left-cheek"></div>
+    <div class="belly"></div>
+    <div class="right-eye">
+      <div class="sparkle"></div>
+    </div>
+    <div class="left-eye">
+      <div class="sparkle"></div>
+    </div>
+    <div class="blush-right"></div>
+    <div class="blush-left"></div>
+    <div class="beak-top"></div>
+    <div class="beak-bottom"></div>
+  </div>
+</div>
+
+<br/>
+
+
+    <h1 id="crear-un-modelo-predictivo-machine-learning-en-ibm-cloud">Crear un modelo predictivo Machine Learning en IBM Cloud</h1>
+<h2 id="prerequisitos">Prerequisitos</h2>
+<pre><code>$ Cuenta activa en IBM Cloud
+</code></pre><h2 id="crear-servicios-en-ibm-cloud">Crear servicios en IBM Cloud</h2>
+<p>Estos servicios son gratuitos en su versión lite.</p>
+<pre><code>$ Cloud Object Storage - Unidad de almacenamiento
+$ Watson Studio - Ambiente de desarrollo para machine learning
+$ Machine learning - Creación y despliegue de modelos
+</code></pre><h2 id="crear-proyecto">Crear proyecto</h2>
+<p>Abrir el servicio de Watson Studio desde IBM Cloud o Watson Studio.</p>
+<ul>
+<li>En la pagina principal de Watson Studio hacer click en nuevo proyecto</li>
+<li>Darle un nombre al proyecto</li>
+<li>Escoger el servicio Object Storage que creado con anterioridad</li>
+<li>Crear</li>
+<li>Ir a cofiguración</li>
+<li>Bajar a servicios asociados</li>
+<li>Añadir servicio Watson</li>
+<li>Añadir el servicio Machine Learning</li>
+<li>En la sección de existentes agregar el servicio de Machine Learning ya creado</li>
+</ul>
+<p>Se redirigue a la sección de servicios asociados.</p>
+<h2 id="data-asset">Data Asset</h2>
+<p>Ir a la pestaña de <em><strong>Assets</strong></em> o <em><strong>Activos</strong></em> y arrastrar los archivos en la sección load, al cargar un archivo se crea un data asset.</p>
+<p>Al hacer click en el nombre del data asset se puede ver el botón refine o refinar, en esta sección se pueden analizar, remover columnas que no aportán al modelo y en la sección operación se pueden realizar operaciones y calculos complejos en la sección data.</p>
+<p>En la sección perfil se pueden ver los datos distribuidos en columnas.</p>
+<p>En la sección visualizaciones se pueden previsualizar, crear y descargar gráficos a raíz de los datos, se puede activar el flujo de datos con el boton en forma de triángulo y se puedén crear, salvar y ver los trabajos.</p>
+<p>Al crear el flujo de trabajo, se debe configurar el ambiente de ejecución y se debe ejecutar el trabajo.</p>
+<h2 id="experimento-autoai">Experimento AutoAI</h2>
+<p>El experimento AutoAI es un asistente para el entrenamiento de machine learning.</p>
+<ul>
+<li>Añadir experimento AutoAI</li>
+<li>Seleccionar desde proyecto</li>
+<li>Seleccionar el dato a predecir</li>
+<li>Ejecutar el experimento</li>
+</ul>
+<p>Una vez que se realiza el experimento, automáticamente se particiona la data, se eligen los algoritmos y se ejecutan las interacciones.</p>
+<p>En la comparación de interacciones o pipeline podemos ver los detalles de cada interacción.</p>
+<p>En la sección de interconexión se pueden observar las interacciones del experimento y en cada interacción se puede guardar como modelo o com notebook.</p>
+<h2 id="crear-espacio-de-despliegue">Crear espacio de despliegue</h2>
+<ul>
+<li>Hacer click en el modelo</li>
+<li>Visión general</li>
+<li>Promocionar al espacio de despliegue</li>
+<li>crear un nuevo espacio de despliegue</li>
+<li>Ascender</li>
+</ul>
+<p>En Watson Studio</p>
+<ul>
+<li>Ir a los espacios de despligue</li>
+<li>Dirigirse a activos</li>
+<li>Hacer click en el nombre del modelo</li>
+<li>Crear despliegue</li>
+<li>Ir a valores de espacio</li>
+<li>Ir a configuración</li>
+<li>Asociar instancia</li>
+<li>Seleccionar servicio machine learning</li>
+<li>Guardar</li>
+<li>Crear despliegue</li>
+<li>elegir <em>en linea</em> o <em>por lotes</em></li>
+<li>crear</li>
+</ul>
+<p>En el despliegue podemos ver una sección con assets de código, un end point, también hay una sección de pruebas.</p>
+<p>Para poder realizar los despliegues se necesita contar con las <a href="apikeys/">APIKeys</a>, se pueden configurar en la sección IAM en Watson Studio</p>
+         
+
+
+
+        <div class="footer">
+    Desarrollado por <a href="https://rycko.online/" target="_blank">Rycko</a> 
+</div>
+
+    </div>
+  </body>
+</html>
