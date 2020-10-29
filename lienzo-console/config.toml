@@ -1,0 +1,20 @@
+baseurl = "https://rycko.github.io/lienzo.github.io/"
+title = "root@localhost"
+theme = "hugo-theme-console"
+languageCode = "en-us"
+
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  [[params.navlinks]]
+    name = "revenue/"
+    url = "revenue/"
+
+  [[params.navlinks]]
+    name = "employee_satisfy/"
+    url = "employee_satisfy/"
+  
+  [[params.navlinks]]
+    name = "APIKey's/"
+    url = "apikeys/"
